@@ -1,6 +1,6 @@
 {
     "name": "homebridge-powersocket",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "This is a homebridge plugin for power sockets.",
     "main": "index.js",
     "scripts": {
@@ -23,11 +23,11 @@
         "url": "https://github.com/honkmaster/homebridge-powersocket/issues"
     },
     "homepage": "https://github.com/honkmaster/homebridge-powersocket#readme",
-    "engines" : {
+    "engines": {
         "node": ">=0.12.0",
         "homebridge": ">=0.2.0"
     },
-    "dependencies" :{
+    "dependencies": {
         "fakegato-history": "^0.5.2"
     }
 }
