@@ -1,0 +1,33 @@
+{
+    "name": "homebridge-powersocket,
+    "version": "1.0.0",
+    "description": "This is a homebridge plugin for power sockets.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thncode/homebridge-powersocket.git"
+    },
+    "keywords": [
+        "homebridge",
+        "homebridge-plugin",
+        "HomeKit",
+        "power",
+        "socket"
+    ],
+    "author": "Thomas Nemec",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/honkmaster/homebridge-powersocket/issues"
+    },
+    "homepage": "https://github.com/honkmaster/homebridge-powersocket#readme",
+    "engines" : {
+        "node": ">=0.12.0",
+        "homebridge": ">=0.2.0"
+    },
+    "dependencies" :{
+        "fakegato-history": "^0.5.2"
+    }
+}
