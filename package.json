@@ -1,6 +1,6 @@
 {
   "name": "homebridge-powersocket",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "This is a homebridge plugin for power sockets.",
   "main": "index.js",
   "scripts": {
