@@ -22,6 +22,10 @@ PowerSocketPlugin.prototype.getStatusLowBattery = function (callback) {
     callback(null, Characteristic.StatusLowBattery.BATTERY_LEVEL_NORMAL);
 };
 
+PowerSocketPlugin.prototype.getFirmwareRevision = function (callback) {
+    callback(null, this.storedData.firmware ? this.storedData.firmware.firmwareVersion : '1.0.0');
+};
+
 PowerSocketPlugin.prototype.setUpServices = function () {
     // info service
     this.informationService = new Service.AccessoryInformation();
