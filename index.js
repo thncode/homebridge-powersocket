@@ -31,9 +31,9 @@ PowerSocketPlugin.prototype.setUpServices = function () {
     this.informationService = new Service.AccessoryInformation();
 
     this.informationService
-        .setCharacteristic(Characteristic.Manufacturer, this.config.manufacturer || "THN")
-        .setCharacteristic(Characteristic.Model, this.config.model || "PowerSocket")
-        .setCharacteristic(Characteristic.SerialNumber, this.config.serial || hostname + "-" + this.name);
+        .setCharacteristic(Characteristic.Manufacturer, "THN") //this.config.manufacturer || "THN")
+        .setCharacteristic(Characteristic.Model, "PowerSocket") //this.config.model || "PowerSocket")
+        .setCharacteristic(Characteristic.SerialNumber, "0815") //this.config.serial || hostname + "-" + this.name);
     this.informationService.getCharacteristic(Characteristic.FirmwareRevision)
         .on('get', this.getFirmwareRevision.bind(this));
 
